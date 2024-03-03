@@ -1,0 +1,27 @@
+.card{
+    width: 200px;
+    height: 150px;
+    border: 1px solid black;
+    margin-bottom: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.counter{
+    display: flex;
+    width: 200px;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.appCont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cardCont{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 150px 150px;
+    gap: 20px;
+}
